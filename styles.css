@@ -1,0 +1,81 @@
+/* External CSS */
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            min-height: 100vh;
+            background-image: url('background.jpg'); /* Ganti dengan nama file foto Anda */
+            background-size: cover; /* Agar foto menutupi seluruh latar belakang */
+            background-position: center; /* Agar foto terletak di tengah */
+        }
+        
+        header {
+            padding: 20px 0;
+            text-align: center;
+            color: rgb(8, 10, 40);
+        }
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+   .img {
+       width: 150px; 
+       height: 150px; 
+       max-width: 100%; /* Menjamin gambar tidak melebihi lebar kontainer */
+       object-fit: cover; 
+       border-radius: 50%; 
+       border: 3px solid white; 
+       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   }
+#profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.bio p {
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+}
+
+h1  {
+    margin: 0; 
+    font-weight: 300;
+}
+h2 {
+    color: #2a5298;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#details {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#details h3 {
+    color: #1e3c72;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Membuat list lebih rapi */
+#details ul {
+    padding-left: 20px;
+}
+
+#details li {
+    margin-bottom: 8px;
+    color: #555;
+}
